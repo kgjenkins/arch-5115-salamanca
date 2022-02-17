@@ -206,3 +206,8 @@ Do **NOT** export to DXF using any of these CRS, or you will see distortions and
 * EPSG:3857 = WGS 84 / Pseudo-Mercator -- also called "Web Mercator", uses false "meters" (only true at equator)
 
 If you have data that extends beyond your area of interest, and don't want to export it all to DXF, try checking the "Export features intersecting the current map extent".  (You may need to cancel if you need to adjust the map extent, and then open the export dialog again.)
+
+
+## Adding data from ArcGIS Online
+
+<https://www.arcgis.com/home/search.html?q=owner%3A%22tlaquay%22>
