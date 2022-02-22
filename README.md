@@ -1,6 +1,7 @@
 # QGIS workshop for ARCH 5115 (Dietzsch), focusing on Salamanca, NY
 
-Workshop 2022-02-17 by Keith Jenkins, GIS Librarian at Mann Library, Cornell University.
+Workshop 2022-02-17 by Keith Jenkins, GIS Librarian at Mann Library, Cornell University. \
+This document is online at: <https://kgjenkins.github.io/arch-5115-salamanca/>
 
 For help after this workshop, contact me at kgj2@cornell.edu  
 Or set up a Zoom appointment at <https://guides.library.cornell.edu/gis/help>
@@ -98,7 +99,7 @@ OpenStreetMap is a great source of streets data, and is widely considered to be 
 * Look in the "streets" folder, and drag the "Cattaraugus_e911_roads.shp" file onto QGIS
 * If it ends up underneath the boundaries layer, drag it up above in the list of layers
 
-Explore the data a bit (identify tool, attribute table), and notice the contents of the "SHIELD" column -- click the header twice to reverse sort by this column.  It has values like 'C', 'I', 'P', 'S', etc.  The definitions of these values can be found in the **metadata** file for the NYS statewide streets dataset at http://gis.ny.gov/gisdata/supportfiles/Streets-Data-Dictionary.pdf
+Explore the data a bit (identify tool, attribute table), and notice the contents of the "SHIELD" column -- click the header twice to reverse sort by this column.  It has values like 'C', 'I', 'P', 'S', etc.  The definitions of these values can be found in the **metadata** file for the NYS statewide streets dataset at <http://gis.ny.gov/gisdata/supportfiles/Streets-Data-Dictionary.pdf>
 
 We can use those values to control the layer style and give prominence to the interstates and state highways.
 
@@ -211,3 +212,20 @@ If you have data that extends beyond your area of interest, and don't want to ex
 ## Adding data from ArcGIS Online
 
 <https://www.arcgis.com/home/search.html?q=owner%3A%22tlaquay%22>
+
+## Citing your Data Sources
+
+The data for this workshop came for the following sources:
+
+* Cattaraugus Contours: <http://gis.ny.gov/gisdata/inventories/details.cfm?DSID=1174>
+* Cattaraugus Municipal Boundaries: <http://gis.ny.gov/gisdata/inventories/details.cfm?DSID=1172>
+* Cattaraugus Roads: <http://gis.ny.gov/gisdata/inventories/details.cfm?DSID=1170>
+* Cattaraugus Parcels: <https://maps2.cattco.org/arcgiswebadaptor/rest/services/HistoricalParcels/MapServer/45>
+
+If you are using a basemap, you'll want to provide attribution to the basemap provider.  For some of the basemaps, the layer properties may have these details and possibly a link to the terms of use.
+
+* Stamen Toner Lite > right-click > Properties > QGIS Server tab
+  > Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL.
+* OSM Standard > right-click > Properties > QGIS Server tab
+  > © OpenStreetMap contributors, CC-BY-SA
+
